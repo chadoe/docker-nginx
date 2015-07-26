@@ -25,4 +25,4 @@ for _curVar in `env | awk -F = '{print $1}'`;do
 done
 
 # Run nginx
-/usr/sbin/nginx
+exec /usr/sbin/nginx
