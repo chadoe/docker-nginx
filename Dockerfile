@@ -1,4 +1,4 @@
-FROM nginx:1.9.6
+FROM nginx:latest
 
 MAINTAINER Martin van Beurden <chadoe@gmail.com>
 
